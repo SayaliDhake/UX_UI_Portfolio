@@ -1,0 +1,179 @@
+
+body{
+    background-image: url("../images/backgrnd.jpg");
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+} 
+
+
+.navbar{
+    top: 0;
+    position: fixed;
+    
+}
+
+
+
+.home{
+    background-color:darkslategrey;
+  color: #CECECE;
+  border:#CECECE;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.2s;
+}
+
+.home:hover{
+    background-color: transparent;
+    color: darkslategrey;
+    border: 2px solid darkslategrey;
+    
+}
+
+
+.arrowImg{ 
+    position: relative;
+    animation-name: arw;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes arw {
+    0%   {background-color:transparent; left:0px; top:0px;}
+    5%  {background-color:transparent; left:21px; top:0px;}
+     0%   {background-color:transparent; left:0px; top:0px;}
+   }
+
+
+
+
+.arrow{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    font-size: 30px;
+    font-style: bold;
+    color: darkslategrey;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    padding: 10px 20px;
+    margin: 4px 2px;
+   
+  }
+
+  
+.logoSection{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+    
+.section{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 7%;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content: center; */
+    min-width: 700px;
+    /* min-width: 50%;
+    max-width: 80%; */
+   border: 10px;
+}
+
+
+.img{
+    background-image: url("../images/sayali.jpg");
+    border-color: grey;
+    opacity: 0.9;
+    width: 200px;
+    border-radius: 15px;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@keyframes ani{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 200px;
+    }
+    100%{
+        left:0;
+    }
+}  
+
+
+
+.introduction{
+    
+    justify-content: center;    
+    /* padding: 30px; */
+    width: 300px;
+
+}
+    
+.text{
+    color:grey;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    line-height: 1.5;
+}
+
+
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content:flex-end;
+    padding-top: 15%;
+    margin: 4px 2px;
+    position: fixed;
+    bottom: 0;
+    cursor: pointer;
+}
+
+.linkedin{
+    width: 30px;
+}
+
+.behance{
+    width: 30px;
+}
+.footerButtons{
+    border: none;
+    background-color: transparent;
+}
+
+@media only screen and (max-width:600px){
+    .section{
+        margin-left: auto;
+        flex-direction: column;
+        display: flex;
+        min-width: 100%;
+        justify-content:space-around;
+        align-items: center;
+    }
+         
+    body{
+        background-repeat: repeat ;
+    }
+
+    .home {
+        font-size: 8px;
+    }
+  }
+  
+  

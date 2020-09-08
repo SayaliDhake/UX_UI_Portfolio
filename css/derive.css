@@ -1,0 +1,80 @@
+#row{
+    background-color:#125486;
+    height: 110px;
+    color: white;
+}
+
+.logo{
+    height: 110px;
+}
+
+.navbar-nav{
+    /* margin-left: 150px; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-link:hover{
+    color: white;
+    font-size: 30px;
+}
+
+.mainText{
+    margin-top: 50px;
+    color: #125486;
+}
+
+.jumbotron{
+    margin-top: 100px;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    min-width: 300px;
+}
+
+.jumbotron1{
+    margin-left: 150px;
+    margin-top: 100px;
+    width: 1000px;
+    height: 450px;    
+}
+/* #thirdImg{
+   margin-left: 240px;
+} */
+
+.processImg{
+    width: 800px;
+    height: 500px;
+}
+
+.heading{
+    color:#125486;
+    margin-left: 250px;
+}
+
+.wireframes{
+    width: 100%;
+    height: 300px;
+    margin-left: 100px;
+}
+.wireframeheading{
+    margin-left: 500px;
+    color:#125486;
+}
+.learn{
+    color: #125486;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+
+}
+.learnHeading{
+    color: #125486;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 300px;
+    
+
+}
